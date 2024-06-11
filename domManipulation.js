@@ -23,21 +23,24 @@ let image = document.querySelector('.image');
 
 contentButton.addEventListener('click', function() {
 
-
-
-
-
-
+    header.innerHTML = "Batman";
 });
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
+image1Button.addEventListener("click", function() {
+    img.src = "https://media4.giphy.com/media/26ufdidQqU2lhNA4g/giphy.gif";
+});
 
 
 
 
 
 // 5. Add an event listener to the `image2Button`
+image2Button.addEventListener("click", function() {
+    img.src = "https://media4.giphy.com/media/26ufdidQqU2lhNA4g/giphy.gif";
+});
+
 // 6. When clicked, it should change the source of `image` to another image URL.
 
 
